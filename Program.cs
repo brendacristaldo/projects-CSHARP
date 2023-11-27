@@ -4,15 +4,15 @@ class Program
 {
     static void Main()
     {
-        // Criar e exibir professor
+        // Instancia e chama a classe professor
         Professor professor = new Professor("John Doe", 5000);
         professor.ApresentarDados();
 
-        // Criar e exibir disciplina associada ao professor
+        // Instancia e chama a classe disciplina
         Disciplina disciplina = new Disciplina("Matemática", professor);
         disciplina.ApresentarDados();
 
-        // Criar e exibir aluno com disciplina cadastrada
+         / Instancia e chama a classe disciplina
         Aluno aluno = new Aluno("Alice", "123456", disciplina);
         aluno.ApresentarDados();
     }
