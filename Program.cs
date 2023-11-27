@@ -16,9 +16,9 @@ class Program
         Aluno aluno = new Aluno("Alice", "123456", disciplina);
         aluno.ApresentarDados();
 
-        // Acessando e modificando as propriedades
+        // Alterando o conteudo da variavel privada "Nome" da classe professor
         Console.WriteLine($"Nome do professor pré-modificação: {professor.Nome}");
-        professor.Nome = "Jane Doe"; // Modificando usando a propriedade
+        professor.Nome = "Jane Doe"; // Modificando o nome do professor
         Console.WriteLine($"Nome depois da modificação: {professor.Nome}");
     }
 }
